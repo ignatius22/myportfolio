@@ -2471,12 +2471,12 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #1abc9c;
+  background-color: #020024;
   border-color: #1abc9c;
 }
 .btn-primary:hover {
-  color: #fff;
-  background-color: #159a80;
+  color: gold;
+  background-color: black;
   border-color: #148f77;
 }
 .btn-primary:focus, .btn-primary.focus {
@@ -6095,7 +6095,10 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #1abc9c !important;
+  background-color: black !important;
+  background-image: url('https://images.unsplash.com/photo-1514421217105-e50147b68507?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10086,6 +10089,7 @@ h3 {
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
   color: #fff;
+
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
   color: #1abc9c;
@@ -10116,11 +10120,11 @@ h3 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #1abc9c;
+    background: black;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #1abc9c;
+    background: black;
   }
 
   #mainNav.navbar-shrink {
