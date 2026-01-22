@@ -337,7 +337,7 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.-->
-            <form id="contactForm" name="sentMessage" novalidate="novalidate" action="https://formspree.io/f/mnjjbyye">
+            <form id="contactForm" name="sentMessage" novalidate="novalidate" action="https://formspree.io/f/mnjjbyye" method="POST">
               <div class="control-group">
                 <div
                   class="form-group floating-label-form-group controls mb-0 pb-2"
@@ -363,6 +363,7 @@
                     class="form-control"
                     id="email"
                     type="email"
+                    name="email"
                     placeholder="Email Address"
                     required="required"
                     data-validation-required-message="Please enter your email address."
@@ -380,6 +381,7 @@
                     id="phone"
                     type="tel"
                     placeholder="Phone Number"
+                    name="phone"
                     required="required"
                     data-validation-required-message="Please enter your phone number."
                   />
@@ -395,6 +397,7 @@
                     class="form-control"
                     id="message"
                     rows="5"
+                    name="message"
                     placeholder="Message"
                     required="required"
                     data-validation-required-message="Please enter a message."
